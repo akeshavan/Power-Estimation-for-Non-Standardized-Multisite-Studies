@@ -1,10 +1,10 @@
-\begin{table}[]
+\begin{table}
+[]
 \centering
 \begin{tabular}{lrrrrrrrrrrrrrr}
 \toprule
-{} &    R2 &  Strength\_p &  FlipAngle\_p &      TR\_p &  Intercept\_p &  Make[T.Ph]\_p &  Make[T.Si]\_p &      TE\_p &       F\_p &   CVa &    WI &  WI\_cal &    BW &  BW\_cal \\
+{ROI} &    $R^2$ &  $p_{Str}$ &  $p_{FA}$ &      $p_{TR}$ &  $p_{Int}$ &  $p_{Ph}$ &  $p_{Si}$ &      $p_{TE}$ &       $p_F$ &   $CV_{\alpha}$ &    $WI$ &  $WI_{cal}$ &    $BW$ &  $BW_{cal}$ \\
 \midrule
-variable                           &       &             &              &           &              &               &               &           &           &       &       &         &       &         \\
 Accumbens-area                     &  0.86 &    5.57e-01 &     1.01e-01 &  6.55e-05 &     2.33e-03 &          0.10 &      1.86e-05 &  8.79e-02 &  1.44e-04 &  0.14 &  0.93 &    0.84 &  0.32 &    0.65 \\
 Amygdala                           &  0.85 &    2.52e-03 &     4.52e-01 &  1.42e-03 &     4.75e-04 &          0.04 &      1.98e-03 &  4.65e-01 &  2.09e-04 &  0.07 &  0.93 &    0.91 &  0.63 &    0.82 \\
 Inf-Lat-Vent                       &  0.87 &    1.28e-02 &     1.57e-03 &  6.22e-03 &     8.43e-05 &          0.59 &      7.44e-03 &  8.33e-01 &  1.12e-04 &  0.16 &  0.90 &    0.89 &  0.74 &    0.83 \\
@@ -19,6 +19,9 @@ posteriorcingulate\_thickness       &  0.84 &    4.10e-03 &     4.69e-03 &  6.20
 rostralanteriorcingulate\_thickness &  0.84 &    1.10e-01 &     1.28e-02 &  1.62e-03 &     9.51e-08 &          0.39 &      5.48e-03 &  2.01e-01 &  3.54e-04 &  0.04 &  0.81 &    0.75 &  0.47 &    0.62 \\
 \bottomrule
 \end{tabular}
-\caption{This table shows the scaling factor ($\hat{\alpha}$)  prediction results via ordinary least squares. The ROIs shown are those that remain after Bonferroni correction on the F statistic for the model. The columns are the p values for the coefficients on magnetic field strength (Str), flip angle (FA), repetition time (TR), intercept (Int), Phillips scanner make (Ph), Siemens scanner make (Si), and echo time (TE), along with the coefficient of variability of scaling factors ($CV_{\alpha}$) and the within- (WI) and between- (BW) site ICCs before and after calibration, and the coefficient of variability of the model $R^2$ and p-value of the F-statistic of the model $p_F$.}
+
 \label{tab:alpha_predict}
+
+\caption{This table shows the scaling factor ($\hat{\alpha}$)  prediction results via ordinary least squares. The ROIs shown are those that remain after Bonferroni correction on the F statistic for the model. The columns are the p values for the coefficients on magnetic field strength (Str), flip angle (FA), repetition time (TR), intercept (Int), Phillips scanner make (Ph), Siemens scanner make (Si), and echo time (TE), along with the coefficient of variability of scaling factors ($CV_{\alpha}$) and the within- (WI) and between- (BW) site ICCs before and after calibration, and the coefficient of variability of the model $R^2$ and p-value of the F-statistic of the model $p_F$.
+
 \end{table}
