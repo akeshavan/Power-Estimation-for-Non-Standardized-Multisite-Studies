@@ -58,6 +58,7 @@ beginequation_scGMV_1.tex
 An_ANOVA_was_run.tex
 The_scaling_factors_.tex
 Finally_to_address_t.tex
+subsection_Scaling_Factor_Prediction_An__.tex
 sectionResults__ADD_.tex
 Scanrescan_reliabili.tex
 Between_and_withinsi.tex
