@@ -73,6 +73,7 @@ tab_acquisition1.tex
 tab_acquisition2.tex
 tab_cva.tex
 figures/cva_J/cva_J.png
+begin_tabular_lrrrrrrrrrrrrrr_toprule_R2__.tex
 sectionDiscussion__A.tex
 Testretest_reliabili1.tex
 Our_derivation_of_po.tex
