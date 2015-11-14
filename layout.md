@@ -69,6 +69,7 @@ figures/scGMV/scGMV.png
 figures/GMV/GMV.png
 figures/WMV/WMV.png
 tab_acquisition1.tex
+begin_table_centering_begin_tabular__.tex
 tab_acquisition2.tex
 tab_cva.tex
 figures/cva_J/cva_J.png
