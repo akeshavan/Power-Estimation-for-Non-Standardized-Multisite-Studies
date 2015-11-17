@@ -8,7 +8,7 @@ In_this_study_we.tex
 2.tex
 Linear_mixed_models_.tex
 We_defined_a_randome.tex
-beginequation_Y_ij__.tex
+begin_equation_Y__i_j__.tex
 with_matched_covaria.tex
 beginequation_labela.tex
 where_the_true_value.tex
