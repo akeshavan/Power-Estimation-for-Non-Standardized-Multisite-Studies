@@ -84,4 +84,3 @@ beginequation_varhat4.tex
 and_it_follows_that.tex
 beginequation_labelw.tex
 which_should_be_used.tex
-Authorea_admin_test__.tex
