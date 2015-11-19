@@ -28,7 +28,6 @@ In_order_to_test.tex
 beginequation_labele.tex
 figures/new_pwrtable_all/new_pwrtable_all.png
 Figure_reffigpower_s.tex
-beginmultline_fracpa.tex
 which_shows_that_the.tex
 beginequation_hatbet.tex
 where_N__sumlimitsJ.tex
@@ -84,3 +83,4 @@ subsectionMaximum_Li.tex
 5.tex
 beginequation_labelm1.tex
 for_a_nonzero_mu.tex
+beginmultline_fracpa.tex
