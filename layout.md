@@ -28,7 +28,6 @@ In_order_to_test.tex
 beginequation_labele.tex
 figures/new_pwrtable_all/new_pwrtable_all.png
 Figure_reffigpower_s.tex
-which_should_be_used.tex
 3.tex
 subsectionAcquisitio.tex
 subsectionProcessing.tex
@@ -84,3 +83,4 @@ where_N__sumlimitsJ.tex
 beginequation_varhat4.tex
 and_it_follows_that.tex
 beginequation_labelw.tex
+which_should_be_used.tex
