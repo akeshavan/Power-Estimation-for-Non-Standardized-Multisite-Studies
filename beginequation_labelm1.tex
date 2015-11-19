@@ -2,3 +2,34 @@
 \label{mle}
 L_1 = \prod\limits_i\frac{1}{\sqrt{2\pi \alpha_j^2 V_j}}exp\Big(\frac{-(\beta_{1j}- \mu)^2}{2 \alpha_j^2 V_j}\Big)
 \end{equation}
+
+for a non-zero $\mu$ and $V_j$ defined as the unscaled error variance on $\hat{\beta_{1,j}}$. The maximum likelihood estimator $\hat{\mu}$ is found by taking the derivative of the log of (\ref{mle}), setting it equal to 0, and solving for $\mu$,
+
+\begin{multline}
+\frac{\partial}{\partial \mu}\Big(log(L_1)\Big) =
+\frac{\partial}{\partial \mu} \Big(\sum\limits_i^J \frac{1}{\sqrt{2 \pi \alpha_i^2 V_i}} + \sum\limits_i^J \frac{(\beta_{1j} - \mu)^2}{2 \alpha_i^2V_i}\Big) = 0
+\implies \hat{\mu} = \frac{\sum\limits_i^J \alpha_i^{-2}V_i^{-1}\beta_{1j}}{\sum\limits_i^J \alpha_i^{-2}V_i^{-1}}
+\end{multline}
+
+which shows that the inverse variance weighted average is the maximum likelihood estimator for the overall treatment effect. If we assume that the unexplained variance ($\sigma_0$) is the same across all sites, which is a valid assumption if subjects are from the same population, the estimate can be expressed as
+
+\begin{equation}
+\hat{\beta}_{10} = \frac{\sum\limits_{j=1}^J n_j\hat{\beta}_{1j}}{N} = \frac{\beta_{10}\sum\limits_{j=1}^J n_j \alpha_j}{N} 
+\end{equation}
+
+where $N = \sum\limits^J n_j$ is the total number of subjects in the study. The variance of the estimate is
+
+\begin{equation}
+var(\hat{\beta}_{10}) = \frac{\sigma_0^2 \alpha_0^2}{N^2}\sum\limits_{j=1}^J 4n_j + CV_{\alpha}^2(4n_j + \delta^2n_j^2) 
+\end{equation}
+
+and it follows that the noncentrality parameter is
+
+\begin{equation}
+\label{weightedlambda}
+\lambda = \frac{\delta^2 \Big(\sum\limits_{j=1}^J n_j \frac{\alpha_j}{\alpha_0}\Big)^2 }{\sum\limits_{j=1}^J 4n_j + CV_{\alpha}^2(4n_j + \delta^2n_j^2)}
+\end{equation}
+
+which should be used for a more accurate power analysis if the specific number of subjects per site and the site's scaling factors are known.
+
+
