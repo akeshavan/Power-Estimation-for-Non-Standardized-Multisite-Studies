@@ -1,5 +1,4 @@
 abstract.tex
-.tex
 1.tex
 The_pooled_metaanaly.tex
 Towards_this_goal_th.tex
@@ -29,7 +28,6 @@ In_order_to_test.tex
 beginequation_labele.tex
 figures/new_pwrtable_all/new_pwrtable_all.png
 Figure_reffigpower_s.tex
-subsectionMaximum_Li.tex
 beginequation_labelm1.tex
 for_a_nonzero_mu.tex
 beginmultline_fracpa.tex
@@ -80,6 +78,7 @@ To_our_knowledge_thi.tex
 One_limitation_of_th.tex
 In_this_study_we1.tex
 When_planning_a_mult.tex
+subsectionMaximum_Li.tex
 4.tex
 In_conclusion_system.tex
 section_Acknowledgements_We_thank_the__.tex
