@@ -16,7 +16,10 @@
 \usepackage{rotating}
 \usepackage{graphicx}
 %\usepackage[font=footnotesize, labelfont={sf,bf}, margin=1cm]{caption}
-
+\iflatexml
+\else
+\usepackage{authblk} % Not (yet) supported by LaTeXML.
+\fi
 % First macro on next line not (yet) supported by LaTeXML: 
 % \sectionfont{\large}
 % First macro on next line not (yet) supported by LaTeXML: 
