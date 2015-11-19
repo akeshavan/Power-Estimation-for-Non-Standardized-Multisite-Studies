@@ -28,7 +28,6 @@ In_order_to_test.tex
 beginequation_labele.tex
 figures/new_pwrtable_all/new_pwrtable_all.png
 Figure_reffigpower_s.tex
-where_N__sumlimitsJ.tex
 beginequation_varhat4.tex
 and_it_follows_that.tex
 beginequation_labelw.tex
@@ -84,3 +83,4 @@ for_a_nonzero_mu.tex
 beginmultline_fracpa.tex
 which_shows_that_the.tex
 beginequation_hatbet.tex
+where_N__sumlimitsJ.tex
