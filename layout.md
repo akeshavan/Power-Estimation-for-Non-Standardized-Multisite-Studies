@@ -28,7 +28,6 @@ In_order_to_test.tex
 beginequation_labele.tex
 figures/new_pwrtable_all/new_pwrtable_all.png
 Figure_reffigpower_s.tex
-beginequation_labelm1.tex
 for_a_nonzero_mu.tex
 beginmultline_fracpa.tex
 which_shows_that_the.tex
@@ -81,6 +80,7 @@ When_planning_a_mult.tex
 4.tex
 In_conclusion_system.tex
 section_Acknowledgements_We_thank_the__.tex
+beginequation_labelm1.tex
 section_Appendix__.tex
 subsectionMaximum_Li.tex
 5.tex
