@@ -42,7 +42,6 @@ Scaling_factors_were.tex
 Coefficients_were_se.tex
 beginequation_scGMV_.tex
 The_simulated_datase.tex
-beginequation_scGMV_1.tex
 An_ANOVA_was_run.tex
 The_scaling_factors_.tex
 Finally_to_address_t.tex
