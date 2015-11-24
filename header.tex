@@ -21,6 +21,12 @@
 \else
 \usepackage{authblk} % Not (yet) supported by LaTeXML.
 \usepackage{fullpage}
+\renewcommand\Authfont{\fontsize{10}{14.4}\selectfont}
+\renewcommand\Affilfont{\fontsize{9}{10.8}\itshape}
+\makeatletter
+\renewcommand\AB@affilsepx{  \protect\Affilfont}
+\makeatother
+\linespread{1.5}
 \fi
 % First macro on next line not (yet) supported by LaTeXML: 
 % \sectionfont{\large}
