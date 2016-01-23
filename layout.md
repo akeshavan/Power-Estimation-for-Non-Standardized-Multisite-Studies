@@ -49,6 +49,7 @@ Finally_to_address_t.tex
 sectionResults__ADD_.tex
 Scanrescan_reliabili.tex
 Between_and_withinsi.tex
+begin_table_centering_begin_tabular__.tex
 figures/calibration_improvement_splitview/calibration_improvement_splitview.png
 Simulation_results_a.tex
 Table_reftabcva_show.tex
@@ -56,7 +57,6 @@ figures/paper_powerplot/paper_powerplot.png
 figures/scGMV/scGMV.png
 figures/GMV/GMV.png
 figures/WMV/WMV.png
-begin_table_centering_begin_tabular__.tex
 tab_acquisition2.tex
 tab_cva.tex
 figures/cva_J/cva_J.png
