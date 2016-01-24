@@ -72,6 +72,7 @@ When_planning_a_mult.tex
 In_conclusion_system.tex
 section_Acknowledgements_We_thank_the__.tex
 section_Appendix__.tex
+subsection_Variance_of_a_Product__.tex
 subsectionMaximum_Li.tex
 5.tex
 beginequation_labelm1.tex
