@@ -1,0 +1,44 @@
+\subsection{Variance of a Product of Random Variables}
+
+The proof for this is found in Introduction to the Theory of Statistics (1974) by Mood, Graybill and Boes \cite{boes1974introduction}, section 2.3, Thoerem 3:
+
+Let $X$ and $Y$ be two random variables where $var[XY]$ exists, then
+
+\begin{equation}
+\begin{split}
+var[XY] = \mu_Y^2var[X] + \mu_X^2var[Y] + 2\mu_X\mu_Ycov[X,Y] 
+\\
+- (cov[X,Y])^2 + E[(X-\mu_X)^2(Y-\mu_Y)^2] 
+\\
++ 2\mu_YE[(X-\mu_X)^2(Y-\mu_Y)] + 2\mu_XE[(X-\mu_X)(Y-\mu_Y)^2]
+\end{split}
+\end{equation}
+
+which can be obtained by computing $E[XY]$ and $E[(XY)^2]$ when $XY$ is expressed as
+
+\begin{equation}
+XY = \mu_X\mu_Y + (X-\mu_X)\mu_Y + (Y-\mu_X)\mu_X + (X-\mu_X)(Y-\mu_Y)
+\end{equation}
+
+If $X$ and $Y$ are independent, then $E[XY] = \mu_X\mu_Y$, the covariance terms are 0, and
+
+\begin{equation}
+E[(X-\mu_X)^2(Y-\mu_Y)^2] = E[(X-\mu_X)^2]E[(Y-\mu_Y)^2] = var[X]var[Y]
+\end{equation}
+
+and
+
+\begin{equation}
+\mu_YE[(X-\mu_X)^2(Y-\mu_Y)] = E[(X-\mu_X)^2]E[(Y-\mu_Y)] = 0
+\end{equation}
+
+\begin{equation}
+\mu_XE[(Y-\mu_Y)^2(X-\mu_X)] = E[(Y-\mu_Y)^2]E[(X-\mu_X)] = 0
+\end{equation}
+
+Which gives
+
+\begin{equation}
+var[XY] = \mu_X^2var[Y] + \mu_Y^2var[X] + var[X]var[Y]
+\end{equation}
+
