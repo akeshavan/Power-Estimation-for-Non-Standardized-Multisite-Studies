@@ -51,6 +51,7 @@ Scanrescan_reliabili.tex
 Between_and_withinsi.tex
 begin_table_centering_begin_tabular__.tex
 begin_table_centering_begin_tabular__1.tex
+begin_table_centering_begin_tabular__2.tex
 tab_acquisition2.tex
 figures/calibration_improvement_splitview/calibration_improvement_splitview.png
 Simulation_results_a.tex
