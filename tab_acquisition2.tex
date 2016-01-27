@@ -1,30 +1,40 @@
 \begin{table}
 []
 \centering
-\begin{tabular}{lllllllllll}
+\begin{tabular}{llllll}
 \toprule
-{} &     11 &     12 &     13 &     14 &     15 &     16 &     17 &     18 &     19 &     20 \\
-%\midrule
-%Locations & mia & mil & mnz & mun & nov & osl & par & sf & vdb & vdb\\
+{} & 16 & 17 & ber &                                 19 & 20 \\
 \midrule
-TR (ms)                            &   2150 &      6 &   1900 &      9 &      7 &      7 &   2300 &   2300 &   2130 &   2300 \\
-TE (ms)                           &    3.4 &    3.2 &    2.5 &      4 &    3.2 &    2.9 &      3 &      3 &    2.9 &      3 \\
-Strength (T)                      &      3 &      3 &      3 &      3 &    1.5 &      3 &      3 &      3 &    1.5 &      3 \\
-TI (ms)                           &   1100 &      900 &    900 &      - &      862.9 &    450 &    900 &    900 &   1100 &    900 \\
-FlipAngle ($^{\circ}$)                     &      8 &      9 &      9 &      8 &      8 &     12 &      9 &      9 &     15 &      9 \\
-Make                          &     Si &     Ph &     Si &     Ph &     Ph &     GE &     Si &     Si &     Si &     Si \\
-Voxel Size (mm)                    &  1,1,1 &  1,1,1 &  1,1,1 &  1,1,1 &  1,1,1 &  1,1,1 &  1,1,1 &  1,1,1 &  1,1,1 &  1,1,1 \\
-\bottomrule
-LV             &      1 &      1 &      1 &      1 &      1 &      1 &      1 &      1 &      1 &      1 \\
-cWMV        &      1 &      1 &   0.99 &      1 &      1 &   0.99 &      1 &      1 &      1 &      1 \\
-CVol                     &   0.98 &   0.99 &   0.98 &   0.98 &   0.99 &   0.99 &   0.98 &   0.98 &   0.98 &   0.99 \\
-scGMV                &   0.95 &   0.99 &   0.97 &   0.96 &   0.96 &   0.99 &   0.99 &   0.98 &   0.98 &   0.98 \\
-GMV                  &   0.98 &      1 &   0.98 &   0.99 &   0.99 &      1 &   0.98 &   0.98 &   0.99 &   0.99 \\
-eTIV &   0.87 &   0.99 &      1 &      1 &      1 &      1 &      1 &      1 &      1 &   0.97 \\
-Caud                       &   0.94 &   0.99 &   0.96 &   0.98 &   0.96 &   0.99 &   0.99 &   0.98 &   0.97 &   0.99 \\
-Amyg                      &   0.93 &   0.98 &   0.93 &   0.84 &   0.92 &   0.87 &    0.9 &   0.86 &   0.86 &   0.91 \\
-Hipp                   &   0.98 &   0.99 &   0.68 &   0.94 &   0.96 &   0.98 &   0.98 &   0.98 &   0.94 &   0.94 \\
-Thal               &    0.9 &   0.96 &   0.88 &   0.99 &   0.88 &   0.84 &   0.94 &    0.9 &   0.58 &   0.62 \\
+TR                    &               2300 &               2150 &               1900 &                                               1900 &               1800 \\
+TE                    &               2.98 &               3.40 &               3.03 &                                               2.52 &               3.01 \\
+Strength              &                  3 &                  3 &                  3 &                                                  3 &                  3 \\
+TI                    &                900 &               1100 &                900 &                                                900 &                900 \\
+FlipAngle             &                  9 &                  8 &                  9 &                                                  9 &                  9 \\
+Make                  &                 Si &                 Si &                 Si &                                                 Si &                 Si \\
+Voxel Size            &              1x1x1 &              1x1x1 &              1x1x1 &                                              1x1x1 &        .86x.86x.86 \\
+Distortion Correction &                  N &                  N &                  0 &                                                  N &                  N \\
+Parallel Imaging      &          GRAPPA, 2 &          GRAPPA, 2 &                  0 &  PAT Modus GRAPPA acceleration factor for PE=2 ... &          GRAPPA, 2 \\
+FOV                   &            256x256 &                256 &                  0 &                FOV 260 (voxel size 0.8*0.8*0.8 mm) &              240mm \\
+Read Out Direction    &                 HF &  Phase encode R>>L &                  0 &                                                 FH &                 FH \\
+Head coil \# channels  &                 12 &                 12 &                  0 &                                                 32 &                 32 \\
+Model                 &               Trio &               Trio &               Trio &                                               Trio &               Trio \\
+OS                    &              MRB17 &               VB17 &                  0 &                                               VB17 &                  0 \\
+Acq. Time (min)       &           05:03 &           04:59 &           00:00:00 &                                           05:26 &           06:25 \\
+orientation           &                sag &                tra &                  0 &                                                sag &                sag \\
+\midrule
+Amyg L                &               0.93 &               0.88 &               0.82 &                                               0.81 &               0.91 \\
+Amyg R                &               0.85 &               0.92 &               0.90 &                                               0.89 &               0.93 \\
+Caud L                &               0.98 &               0.93 &               0.97 &                                               0.97 &               0.97 \\
+Caud R                &               0.97 &               0.91 &               0.99 &                                               0.92 &               0.95 \\
+GMV                   &               0.99 &               0.98 &               0.97 &                                               0.98 &               1.00 \\
+Hipp L                &               0.86 &               0.97 &               0.94 &                                               0.86 &               0.96 \\
+Hipp R                &               0.96 &               0.94 &               0.94 &                                               0.36 &               0.96 \\
+LV L                  &               1.00 &               1.00 &               1.00 &                                               1.00 &               1.00 \\
+LV R                  &               1.00 &               1.00 &               1.00 &                                               1.00 &               1.00 \\
+Thal L                &               0.41 &               0.82 &               0.82 &                                               0.63 &               0.88 \\
+Thal R                &               0.63 &               0.92 &               0.84 &                                               0.94 &               0.79 \\
+cWMV                  &               1.00 &               1.00 &               0.99 &                                               0.99 &               1.00 \\
+scGMV                 &               0.98 &               0.95 &               0.98 &                                               0.97 &               0.98 \\
 \bottomrule
 \end{tabular}
 \caption{Top: Acquisition parameters for the last 10 of the 20 scanners. Si = Siemens, Ph = Philips, GE=General Electric. Bottom: Test-retest reliabilities for selected ROIs, processed by Freesurfer. The ROIs are gray matter volume (GMV), subcortical gray matter volume (scGMV), cortex volume (cVol), cortical white matter volume (cWMV), and the volumes of the lateral ventricle (LV), amygdala (Amyg), thalamus (Thal), hippocampus (Hipp), caudate (Caud), and finally the estimated total intracranial volume (eTIV). Test-retest reliability is computed as within-site ICC(1,1)} 
