@@ -62,6 +62,7 @@ figures/GMV/GMV.png
 figures/WMV/WMV.png
 tab_cva.tex
 figures/cva_J/cva_J.png
+begin_table_begin_tabular_c__.tex
 sectionDiscussion__A.tex
 Testretest_reliabili1.tex
 Our_derivation_of_po.tex
