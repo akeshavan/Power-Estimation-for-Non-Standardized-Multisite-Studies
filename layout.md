@@ -74,6 +74,7 @@ In_this_study_we1.tex
 4.tex
 When_planning_a_mult.tex
 section_Acknowledgements_We_thank_the__.tex
+section_Tables__.tex
 section_Appendix__.tex
 subsection_Variance_of_a_Product__.tex
 subsectionMaximum_Li.tex
