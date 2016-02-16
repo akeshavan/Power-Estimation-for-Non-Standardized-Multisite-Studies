@@ -50,7 +50,7 @@ sectionResults__ADD_.tex
 Scanrescan_reliabili.tex
 Between_and_withinsi.tex
 begin_table_centering_begin_tabular__.tex
-begin_table_centering_resizebox_linewidth__1.tex
+begin_table_centering_iflatexml_begin__.tex
 begin_table_centering_resizebox_linewidth__.tex
 tab_acquisition2.tex
 figures/calibration_improvement_splitview/calibration_improvement_splitview.png
