@@ -75,8 +75,8 @@ section_Tables__.tex
 begin_table_begin_tabular_c__.tex
 begin_table_begin_tabular_c__1.tex
 section_Figures__.tex
-section_Appendix__.tex
 figures/cva_J/cva_J.png
+section_Appendix__.tex
 subsection_Variance_of_a_Product__.tex
 subsectionMaximum_Li.tex
 5.tex
