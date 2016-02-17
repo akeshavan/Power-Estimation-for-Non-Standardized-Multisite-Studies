@@ -61,7 +61,6 @@ figures/scGMV/scGMV.png
 figures/GMV/GMV.png
 figures/WMV/WMV.png
 tab_cva.tex
-figures/cva_J/cva_J.png
 sectionDiscussion__A.tex
 Testretest_reliabili1.tex
 Our_derivation_of_po.tex
@@ -77,6 +76,7 @@ begin_table_begin_tabular_c__.tex
 begin_table_begin_tabular_c__1.tex
 section_Figures__.tex
 section_Appendix__.tex
+figures/cva_J/cva_J.png
 subsection_Variance_of_a_Product__.tex
 subsectionMaximum_Li.tex
 5.tex
