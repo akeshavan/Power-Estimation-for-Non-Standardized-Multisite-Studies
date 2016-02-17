@@ -68,6 +68,7 @@ tab_acquisition2.tex
 tab_cva.tex
 begin_table_begin_tabular_c__.tex
 begin_table_begin_tabular_c__1.tex
+clearpage__1.tex
 section_Figures__.tex
 figures/new_pwrtable_all/new_pwrtable_all.png
 figures/calibration_improvement_splitview/calibration_improvement_splitview.png
