@@ -27,6 +27,7 @@ with.tex
 beginequation_varhat3.tex
 In_order_to_test.tex
 beginequation_labele.tex
+Figure_reffigpower_s.tex
 3.tex
 subsectionAcquisitio.tex
 subsectionProcessing.tex
@@ -49,7 +50,6 @@ Scanrescan_reliabili.tex
 Between_and_withinsi.tex
 Simulation_results_a.tex
 Table_reftabcva_show.tex
-tab_cva.tex
 sectionDiscussion__A.tex
 Testretest_reliabili1.tex
 Our_derivation_of_po.tex
@@ -64,12 +64,12 @@ section_Tables__.tex
 begin_table_centering_begin_tabular__.tex
 begin_table_centering_iflatexml_begin__.tex
 begin_table_centering_iflatexml_begin__1.tex
+tab_cva.tex
 tab_acquisition2.tex
 begin_table_begin_tabular_c__.tex
 begin_table_begin_tabular_c__1.tex
 section_Figures__.tex
 figures/new_pwrtable_all/new_pwrtable_all.png
-Figure_reffigpower_s.tex
 figures/calibration_improvement_splitview/calibration_improvement_splitview.png
 figures/paper_powerplot/paper_powerplot.png
 figures/scGMV/scGMV.png
