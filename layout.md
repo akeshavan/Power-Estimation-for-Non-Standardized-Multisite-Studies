@@ -78,7 +78,7 @@ figures/GMV/GMV.png
 figures/WMV/WMV.png
 figures/cva_J/cva_J.png
 clearpage__.tex
-section_Appendix__.tex
+akeshavan_end_stitch_section_Appendix__.tex
 subsection_Variance_of_a_Product__.tex
 subsectionMaximum_Li.tex
 5.tex
