@@ -61,7 +61,7 @@ In_this_study_we1.tex
 When_planning_a_mult.tex
 section_Acknowledgements_We_thank_the__.tex
 section_Tables__.tex
-begin_table_H_centering_begin__.tex
+begin_table_centering_iflatexml_begin__2.tex
 begin_table_centering_iflatexml_begin__.tex
 begin_table_centering_iflatexml_begin__1.tex
 tab_acquisition2.tex
