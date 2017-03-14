@@ -1,6 +1,7 @@
-\begin{table}[H]
+\begin{table}
 \centering
-\begin{tabular}{lllll}
+\iflatexml
+\begin{tabular}{llllll}
 \toprule
 {} & 1 & 2 & 3 & 4 \\
 \midrule
@@ -37,7 +38,46 @@ eTIV                  &               1 &               1 &                 1 & 
 scGMV                 &               .98 &               .97 &                 .98 &                 .93 \\
 \bottomrule
 \end{tabular}
-\caption{Top: Acquisition parameters for the four 1.5T scanners. Si = Siemens, Ph = Philips, GE= General Electric. Bottom: Test-retest reliabilities for selected ROIs, processed by Freesurfer. The ROIs are gray matter volume (GMV), subcortical gray matter volume (scGMV), cortex volume (cVol), cortical white matter volume (cWMV), and the volumes of the lateral ventricle (LV), amygdala (Amyg), thalamus (Thal), hippocampus (Hipp), caudate (Caud), and finally the estimated total intracranial volume (eTIV). Test-retest reliability is computed as within-site ICC(1,1). * signifies a quadrature coil} 
+\else
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llllll}
+\toprule
+{} & 1 & 2 & 3 & 4 \\
+\midrule
+TR (ms)                   &               8.18 &               7.10 &                 2130 &                 2080 \\
+TE (ms)                   &               3.86 &               3.20 &                 2.94 &                 3.10 \\
+Strength (T)              &               1.50 &               1.50 &                 1.50 &                 1.50 \\
+TI (ms)                   &                300 &             862.90 &                 1100 &                 1100 \\
+Flip Angle ($^\circ$)            &                 20 &                  8 &                   15 &                   15 \\
+Make                  &                 GE &                 Ph &                   Si &                   Si \\
+Voxel Size (mm)           &        .94x.94x1.2 &              1x1x1 &                1x1x1 &            .97x.97x1 \\
+Distortion Correction &                  N &                  N &                    N &                    Y \\
+Parallel Imaging      &                  - &                  2 &                    2 &                    - \\
+FOV (mm)                   &        240x240x200 &        256x256x160 &          256x256x176 &          234x250x160 \\
+Read Out Direction    &                 HF &                 AP &                   HF &                   HF \\
+Head coil \# channels  &                  2* &                  8 &                   20 &                   12 \\
+Model                 &           Signa LX &            Achieva &               Avanto &               Avanto \\
+OS                    &                11x &               2.50 &                VD13B &                 B17A \\
+Acq. Time (min)       &           06:24 &           05:34 &             04:58 &             08:56 \\
+orientation           &                sag &                sag &                  sag &                  sag \\
+\# scans              & 24/24 & 24/24 & 24/24 &18/18\\
+\midrule
+Amyg (L)              &               .93 &               .89 &                 .61 &                 .96 \\
+Amyg (R)              &               .93 &               .90 &                 .83 &                 .88 \\
+Caud (L)              &               .96 &               .96 &                 .98 &                 .99 \\
+Caud (R)              &               .96 &               .97 &                 .90 &                 .96 \\
+GMV                   &               .96 &               .99 &                 .98 &                 .99 \\
+Hipp (L)              &               .94 &               .95 &                 .89 &                 .93 \\
+Hipp (R)              &               .93 &               .91 &                 .94 &                 .95 \\
+Thal (L)              &               .77 &               .93 &                 .59 &                 .82 \\
+Thal (R)              &               .91 &               .90 &                 .76 &                 .82 \\
+cVol                  &               .95 &               .99 &                 .97 &                 .99 \\
+cWMV                  &               .99 &               1 &                 .99 &                 .99 \\
+eTIV                  &               1 &               1 &                 1 &                 1 \\
+scGMV                 &               .98 &               .97 &                 .98 &                 .93 \\
+\bottomrule
+\end{tabular}}
+\fi
+\caption{{Top: Acquisition parameters for the four 1.5T scanners. Si = Siemens, Ph = Philips, GE= General Electric. Bottom: Test-retest reliabilities for selected ROIs, processed by Freesurfer. The ROIs are gray matter volume (GMV), subcortical gray matter volume (scGMV), cortex volume (cVol), cortical white matter volume (cWMV), and the volumes of the lateral ventricle (LV), amygdala (Amyg), thalamus (Thal), hippocampus (Hipp), caudate (Caud), and finally the estimated total intracranial volume (eTIV). Test-retest reliability is computed as within-site ICC(1,1). * signifies a quadrature coil}} 
 \label{tab:acquisition1}
-
 \end{table}
