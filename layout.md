@@ -67,7 +67,7 @@ begin_table_centering_iflatexml_begin__1.tex
 tab_acquisition2.tex
 tab_cva.tex
 begin_table_centering_begin_tabular__.tex
-begin_table_begin_tabular_c__1.tex
+begin_table_centering_begin_tabular__1.tex
 clearpage__1.tex
 section_Figures__.tex
 figures/new_pwrtable_all/new_pwrtable_all.png
